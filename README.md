@@ -1,4 +1,4 @@
 # freeCodeCamp
 ## Product-Landing-Page
 ![](ss.png)
-* [Live Site URL](https://github.com/idrisyigit/Product-Landing-Page)
+* [Live Site URL](https://idrisyigit.github.io/Product-Landing-Page/)
