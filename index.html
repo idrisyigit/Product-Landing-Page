@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://kit.fontawesome.com/9fbbf36544.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" />
+    <title>Product Landing Page</title>
+</head>
+<body>
+    <header id="header">
+      <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" id="header-img" />
+      <nav id="nav-bar">      
+        <ul id="navlinks">
+          <li><a class="nav-link" href="#features">Features</a></li>
+          <li><a class="nav-link" href="#video">How It Works</a></li>
+          <li><a class="nav-link" href="#pricing">Pricing</a></li>
+        </ul>        
+      </nav>
+    </header>
+    <section class="hero">
+      <h1>Handcrafted, home-made masterpieces</h1>
+      <form method="get" action="https://www.freecodecamp.com/email-submit" id="form">
+        <label for="email">
+          <input name="email" placeholder="Enter your email adress" id="email" type="email"></input>
+        </label>
+        <label for="submit">
+          <input value="GET STARTED" type="submit" id="submit"></input>
+        </label>
+      </form>
+    </section>
+    <section class="main">
+      <div id="features" class="features">
+        <div class="img"><i class="fa-2xl fa-solid fa-fire-flame-curved"></i></div>
+        <div class="description">
+          <h2>Premium Metals</h2>
+          <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
+        </div>
+      </div>
+      <div class="features">
+        <div class="img"><i class="fa-2xl fa-solid fa-truck"></i></div>
+        <div class="description">
+          <h2>Fast Shipping</h2>
+          <p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
+        </div>
+      </div>
+      <div class="features">
+        <div class="img"><i class="fa-2xl fa-solid fa-battery-full"></i></div>
+        <div class="description">
+          <h2>Quality Assurance</h2>
+          <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
+        </div>
+      </div>
+      <div id="iframe">
+        <iframe id="video" width="700" height="350" src="https://www.youtube.com/embed/y8Yv4pnO7qc" title="Roman Carnival Overture Op. 9 for Five Trombones" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+      <div id="pricing">
+        <div class="products">
+          <h4>TENOR TROMBONE</h4>
+          <h3 class="price">$600</h3>
+          <p class="infos">Lorem ipsum.<p>
+          <p class="infos">Lorem ipsum.<p>
+          <p class="infos">Lorem ipsum.<p>
+          <p class="infos">Lorem ipsum.<p>
+          <label  for="select1">
+            <input class="select" value="SELECT" name="submit" id="select1" type="submit"></input>
+          </label>  
+        </div>
+        <div class="products">
+          <h4>BASS TROMBONE</h4>
+          <h3 class="price">$900</h3>
+          <p class="infos">Lorem ipsum<p>
+          <p class="infos">Lorem ipsum<p>
+          <p class="infos">Lorem ipsum<p>
+          <p class="infos">Lorem ipsum<p>
+          <label  for="select1">
+            <input class="select" value="SELECT" name="submit" id="select1" type="submit"></input>
+          </label>
+        </div>
+        <div class="products">
+          <h4>VALVE TROMBONE</h4>
+          <h3 class="price">$600</h3>
+          <p class="infos">Sit amet.<p>
+          <p class="infos">Sit amet.<p>
+          <p class="infos">Sit amet.<p>
+          <p class="infos">Sit amet.<p>
+          <label  for="select1">
+            <input class="select" value="SELECT" name="submit" id="select1" type="submit"></input>
+          </label>
+        </div>
+      </div>
+      <footer>
+        <ul>
+          <li><a class="footer-links" href="https://www.freecodecamp.org/news/privacy-policy/">Privacy</a><li>
+          <li><a class="footer-links" href="https://www.freecodecamp.org/news/terms-of-service/">Terms</a><li>
+          <li><a class="footer-links" href="https://www.freecodecamp.org/news/code-of-conduct/">Code of Conduct</a><li>
+        </ul>
+        <p id="footer-text">Copyright 2016, Original Trombones</p>
+      </footer>
+    </section>
+</body>
+</html>
